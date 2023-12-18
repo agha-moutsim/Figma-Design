@@ -1,0 +1,730 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+ 
+}
+
+/* Houses For Sale */
+
+.house-for-sale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 60px;
+}
+
+.icons > div {
+    flex: 0 0 auto;
+    margin: 0;
+    text-align: center;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+}
+
+.icons p {
+    display: grid;
+    font-size: 14px;
+    gap: 10px; 
+    align-items: center;
+    justify-content: center; 
+    color: #565656;
+    line-height: 35px;
+}
+
+
+.main-part h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2B2B2B;   
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 55px;
+}
+
+/* Villas For Sale */
+
+.property-listings {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+
+.image-1 img {
+    width: 290px; 
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+    z-index: -999;
+}
+
+.image1 img {
+    margin-inline-start: 270px;
+    margin-bottom: -55px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.price1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 23px;
+    bottom: -1160px;
+    right: 1195px; 
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.interior1 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: 19px; 
+    margin-inline-start: 40px; 
+}
+
+.beds1 img,
+.bathroom img,
+.sqaur1 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0; 
+}
+
+
+.bed-1,
+.bath-1,
+.sqr-1 {
+    margin-right: 16px; 
+    margin-inline-start: -10px;
+}
+
+.bed1,
+.bath1,
+.sqr1 {
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.address1 {
+    width: 218px;
+    height: 20px;
+    margin-top: 60px;
+    margin-inline-start: -270px;
+}
+.address1 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+   /* Box-2 */
+
+   .box2 {
+    margin-top: -25px
+   }
+
+
+   .image-2 img {
+    width: 290px; 
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+    z-index: -999;
+}
+
+.image2 img {
+    margin-inline-start: 270px;
+    margin-bottom: -79px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.price2 {
+    font-weight: 700;
+    font-size: 23px;
+    position: relative;
+    top: 285px; 
+    z-index: 1;
+    margin-left: 30px;
+}
+
+.interior2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 19px;
+    margin-inline-start: 35px;
+    position: relative; 
+    z-index: 0; 
+
+}
+
+.beds2 img,
+.baths2 img,
+.sqaur2 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0; 
+}
+
+
+.bed-2,
+.bath-2,
+.sqr-2 {
+    margin-right: 16px; 
+    margin-inline-start: -10px;
+}
+
+.bed2,
+.bath2,
+.sqr2 {
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.address2 {
+    width: 235px;
+    height: 20px;
+    margin-top: 60px;
+    margin-inline-start: -270px;
+}
+.address2 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+
+/* Box-3 */
+
+.box3 {
+    margin-inline-start: px;
+}
+
+.image-3 img {
+    width: 290px; 
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+    z-index: -999;
+}
+
+.image3 img {
+    margin-inline-start: 270px;
+    margin-bottom: -55px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.price3 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 23px;
+    bottom: -1160px;
+    right: 575px; 
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.interior3 {
+    width: 340px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: 19px; 
+    margin-inline-start: 35px; 
+}
+
+.beds3 img,
+.baths3 img,
+.sqaur3 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0; 
+}
+
+
+.bed-3,
+.bath-3,
+.sqr-3 {
+    margin-right: 16px; 
+    margin-inline-start: -10px;
+}
+
+.bed3,
+.bath3,
+.sqr3 {
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.address3 {
+    width: 290px;
+    height: 20px;
+    margin-top: 60px;
+    margin-inline-start: -269px;
+}
+.address3 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+/* Box-4 */
+
+.box4 {
+    margin-inline-start: -59px;
+}
+
+.image-4 img {
+    width: 290px; 
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+    z-index: -999;
+}
+
+.image4 img {
+    margin-inline-start: 270px;
+    margin-bottom: -55px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.price4 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 23px;
+    bottom: -1160px;
+    right: 250px; 
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.interior4 {
+    width: 300px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: 19px; 
+    margin-inline-start: 35px; 
+}
+
+.beds4 img,
+.baths4 img,
+.sqaur4 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0; 
+}
+
+
+.bed-4,
+.bath-4,
+.sqr-4 {
+    margin-right: 16px; 
+    margin-inline-start: -10px;
+}
+
+.bed4,
+.bath4,
+.sqr4 {
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.address4 {
+    width: 290px;
+    height: 20px;
+    margin-top: 60px;
+    margin-inline-start: -269px;
+}
+.address4 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+
+/* Box-5 */
+
+.box5 {
+    margin-top: 375px;
+    margin-inline-start: -1310px
+   }
+
+
+   .image-5 img {
+    width: 290px; 
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+    z-index: -999;
+}
+
+.image5 img {
+    margin-inline-start: 270px;
+    margin-bottom: -79px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.price5 {
+    font-weight: 700;
+    font-size: 23px;
+    position: relative;
+    top: 285px; 
+    z-index: 1;
+    margin-left: 30px;
+}
+
+.interior5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 19px;
+    margin-inline-start: 35px;
+    position: relative; 
+    z-index: 0; 
+
+}
+
+.beds5 img,
+.baths5 img,
+.sqaur5 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0; 
+}
+
+
+.bed-5,
+.bath-5,
+.sqr-5 {
+    margin-right: 16px; 
+    margin-inline-start: -10px;
+}
+
+.bed5,
+.bath5,
+.sqr5 {
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.address5 {
+    width: 277px;
+    height: 20px;
+    margin-top: 60px;
+    margin-inline-start: -270px;
+}
+.address5 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+/* Box-6 */
+
+.box6 {
+    margin-top: 376px;
+    margin-right: 200px;
+   }
+
+
+   .image-6 img {
+    width: 290px; 
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+    z-index: -999;
+}
+
+.image6 img {
+    margin-inline-start: 270px;
+    margin-bottom: -79px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.price6 {
+    font-weight: 700;
+    font-size: 23px;
+    position: relative;
+    top: 285px; 
+    z-index: 1;
+    margin-left: 30px;
+}
+
+.interior6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 19px;
+    margin-inline-start: 35px;
+    position: relative; 
+    z-index: 0; 
+
+}
+
+.beds6 img,
+.baths6 img,
+.sqaur6 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0; 
+}
+
+
+.bed-6,
+.bath-6,
+.sqr-6 {
+    margin-right: 16px; 
+    margin-inline-start: -10px;
+}
+
+.bed6,
+.bath6,
+.sqr6 {
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.address6 {
+    width: 277px;
+    height: 20px;
+    margin-top: 60px;
+    margin-inline-start: -270px;
+}
+.address6 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+/* Box-7 */
+
+.box7 {
+    margin-top: 376px;
+    margin-inline-end: -300px;
+}
+
+
+   .image-7 img {
+    width: 290px; 
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: -57%;
+    z-index: -999;
+}
+
+.image7 img {
+    margin-inline-start: 76px;
+    margin-bottom: -79px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.price7 {
+    font-weight: 700;
+    font-size: 23px;
+    position: relative;
+    top: 285px; 
+    z-index: 1;
+    margin-left: -159px;
+}
+
+.interior7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 19px;
+    margin-inline-start: -156px;
+    position: relative; 
+    z-index: 0; 
+
+}
+
+.beds7 img,
+.baths7 img,
+.sqaur7 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0; 
+}
+
+
+.bed-7,
+.bath-7,
+.sqr-7 {
+    margin-right: 16px; 
+    margin-inline-start: -10px;
+}
+
+.bed7,
+.bath7,
+.sqr7 {
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.address7 {
+    width: 277px;
+    height: 20px;
+    margin-top: 60px;
+    margin-inline-start: -270px;
+}
+.address7 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+/* Box-8 */
+
+.box8 {
+    margin-inline-start: 130px;
+    margin-top: 402px;
+}
+
+.image-8 img {
+    width: 290px; 
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+    z-index: -999;
+}
+
+.image8 img {
+    margin-inline-start: 270px;
+    margin-bottom: -55px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.price8 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 23px;
+    bottom: -1560px;
+    right: 239px; 
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.interior8 {
+    width: 300px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: 19px; 
+    margin-inline-start: 35px; 
+}
+
+.beds8 img,
+.baths8 img,
+.sqaur8 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0; 
+}
+
+
+.bed-8,
+.bath-8,
+.sqr-8 {
+    margin-right: 16px; 
+    margin-inline-start: -10px;
+}
+
+.bed8,
+.bath8,
+.sqr8 {
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.address8 {
+    width: 290px;
+    height: 20px;
+    margin-top: 60px;
+    margin-inline-start: -269px;
+}
+.address8 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
